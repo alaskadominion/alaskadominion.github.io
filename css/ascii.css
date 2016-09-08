@@ -1,0 +1,63 @@
+@import 'dos437.css';
+@import 'dos80x50.css';
+@import 'topaz500.css';
+
+body, html { margin: 0; }
+
+html { padding: 0; }
+
+body {
+    background-color: #000;
+    color: #aaa;
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    margin: 0 auto;
+    width: 640px;
+}
+
+body.ascii {
+    white-space: pre;
+}
+
+a  {
+    color: #0a0;
+    text-decoration: none;
+}
+
+a:hover { color: #0f0; }
+
+a:visited { color: #555; }
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 7em;
+}
+
+.bg0 { background-color: #000; }
+.bg1 { background-color: #a00; }
+.bg2 { background-color: #0a0; }
+.bg3 { background-color: #a50; }
+.bg4 { background-color: #00a; }
+.bg5 { background-color: #a0a; }
+.bg6 { background-color: #0aa; }
+.bg7 { background-color: #aaa; }
+
+.fg0 { color: #000; }
+.fg1 { color: #a00; }
+.fg2 { color: #0a0; }
+.fg3 { color: #a50; }
+.fg4 { color: #00a; }
+.fg5 { color: #a0a; }
+.fg6 { color: #0aa; }
+.fg7 { color: #aaa; }
+.fg8 { color: #555; }
+.fg9 { color: #f55; }
+.fg10 { color: #5f5; }
+.fg11 { color: #ff5; }
+.fg12 { color: #55f; }
+.fg13 { color: #f5f; }
+.fg14 { color: #5ff; }
+.fg15 { color: #fff; }
